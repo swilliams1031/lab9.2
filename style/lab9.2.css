@@ -1,1 +1,38 @@
 /* it is totally okay for this to be completely empty right now, add what you need */
+
+body { margin:0; padding:0; 
+}
+
+#map { 
+  position: absolute; 
+  top:0; 
+  bottom:0; 
+  right:0; 
+  left:0; 
+}
+  
+
+#info-pane {
+  position: absolute;
+  top: 5px;
+  right: 1px;
+  z-index: 400;
+  padding: .5em;
+  background: #120ca7;
+  text-align: center;
+  border-radius:8px;
+  color: whitesmoke;
+}
+
+#author{
+  font-size:8px;
+  color: whitesmoke;
+}
+
+#logo{
+  height: 10%;
+  position: absolute;
+  top: 1px;
+  right: 160px;
+  z-index: 1000;
+}
